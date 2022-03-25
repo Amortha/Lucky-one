@@ -1,0 +1,15 @@
+.product{
+    width: 300px;
+    height: 510px;
+    /* background-color:#c5bfbf; */
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px ;
+}
+.product img{
+    width: 286px;
+    height: 280px;
+    padding: 7px;
+    border-radius: 5px;
+}
