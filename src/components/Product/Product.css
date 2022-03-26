@@ -1,6 +1,6 @@
 .product{
     width: 300px;
-    height: 710px;
+    height: 750px;
     /* background-color:#c5bfbf; */
     background-color:white;
     padding: 10px;
@@ -23,10 +23,21 @@
      position: absolute;
      bottom: 0;
      left: 0;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+
    
  }
  .buton-text{
  font-weight: bold;
+ font-size: 20px;
+ color: rgb(113, 7, 122);
+ margin-right: 10px;
+ }
+  .icon{
+    font-size: 20px;
+    color: rgb(113, 7, 122);
  }
  .buton-cart:hover{
      background-color: darkolivegreen;
