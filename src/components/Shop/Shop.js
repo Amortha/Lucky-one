@@ -23,10 +23,16 @@ const Shop = () => {
              }
            </div>
            <div className="cart-details">
-            <div className='selected-cart'>
-               
-            </div>
+            <div className="selected-cart">
+               <h2>Selected Items</h2>
+          
+            <div>
+              <button className='btn-one'>CHOOSE 1 FOR ME </button> 
 
+              <br /><br />
+              <button className= 'btn-two'>CHOOSE AGAIN </button>
+            </div>
+            </div>
            </div>
         </div>
     );

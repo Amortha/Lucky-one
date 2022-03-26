@@ -7,6 +7,32 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+/* selected cart css  */
+.selected-cart{
+    width: 200px;
+    height: 500px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.btn-one{
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.btn-two{
+    padding:10px 20px;
+    cursor: pointer;
+}
+.btn-one:hover{
+    background-color: rgb(161, 113, 54);
+}
+
 /* mobaile rasponsive  */
 @media screen and (max-width:480px) {
     .shop-container{
@@ -17,6 +43,7 @@
         grid-template-columns:1fr;
         margin:auto;
     }
+   
 }
 /* Dastop rasponsib  */
 @media screen and (max-width:1080px) {
