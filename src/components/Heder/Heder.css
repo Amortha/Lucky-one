@@ -1,8 +1,17 @@
-.head-body h1{
-    color:#852888;
-  }
+
+  /* heder css   */
   .head-body{
     text-align: center;
-  
-   
+    width: 100%;
+    background-color: #852888;
+    top: 0;
+    z-index: '';
+    position: sticky;
+    height: 140px;
+  }
+  .head-body h1{
+    color:wheat;
+  }
+  .head-body h3{
+    color:wheat;
   }

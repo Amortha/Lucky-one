@@ -1,29 +1,33 @@
 .shop-container{
     display: grid;
-    grid-template-columns:4fr 1fr  ;
+    grid-template-columns:4fr 1fr ;
+ 
 }
 .products-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+    
 }
+
 /* selected cart css  */
 .selected-cart{
     width: 200px;
-    height: 500px;
+    height: 520px;
     margin-left: 10px;
     background-color: aliceblue;
-    margin-top: 50px;
+    margin-top: 25px;
     padding: 10px;
     border-radius: 10px;
     position: sticky;
     top: 0;
     cursor: pointer;
+    border: 2px solid #852888;
 }
+/* button css  */
 .btn-one{
     padding: 10px;
     cursor: pointer;
-    
 }
 .btn-two{
     padding:10px 20px;
@@ -32,7 +36,15 @@
 .btn-one:hover{
     background-color: rgb(161, 113, 54);
 }
-
+.btn-two:hover{
+    background-color: rgb(161, 113, 54);
+}
+.random{
+    background-color: #fff;
+    padding: 10px 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #000;
+}
 /* mobaile rasponsive  */
 @media screen and (max-width:480px) {
     .shop-container{
@@ -43,7 +55,6 @@
         grid-template-columns:1fr;
         margin:auto;
     }
-   
 }
 /* Dastop rasponsib  */
 @media screen and (max-width:1080px) {

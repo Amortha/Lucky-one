@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Welcome our R.G Global laptop & monitor factory Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://willowy-entremet-1fc042.netlify.app/).
 
 ## Available Scripts
 

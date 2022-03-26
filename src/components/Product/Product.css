@@ -1,12 +1,12 @@
 .product{
     width: 280px;
-    height: 750px;
-    /* background-color:#c5bfbf; */
+    height: 720px;
     background-color:white;
     padding: 10px;
     border-radius: 10px;
-    margin-top: 50px ;
+    margin-top: 30px ;
     position: relative;
+    border: 2px solid #852888;;
 }
 .product img{
     width: 265px;
@@ -17,7 +17,7 @@
  /* cart button css  */
  .buton-cart{
      width: 100%;
-     border: none;
+     border:none;
      border-radius: 0px 0px 8px 8px;
      cursor: pointer;
      position: absolute;
@@ -27,7 +27,7 @@
      align-items: center;
      justify-content:center;
 
-   
+   /* button and icon css  */
  }
  .buton-text{
  font-weight: bold;
