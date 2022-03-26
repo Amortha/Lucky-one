@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Shop from './components/Shop/Shop';
+import Question from './components/Question/Question';
+import Heder from './components/Heder/Heder';
 
 function App() {
   return (
-    <div>
-    <div className="head-body">
-    <h1>Welcome our R.G Global laptop & monitor factory Store</h1>
-    <h3>Selact your Best Laptop</h3>
-    </div>
+    <div className='main-body'>
+    <Heder></Heder>
     <Shop></Shop>
+    <Question></Question>
     </div>
   );
 }

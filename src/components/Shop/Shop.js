@@ -22,7 +22,12 @@ const Shop = () => {
                </Product>)  
              }
            </div>
-           <div className="cart-container">chondrija</div>
+           <div className="cart-details">
+            <div className='selected-cart'>
+               
+            </div>
+
+           </div>
         </div>
     );
 };

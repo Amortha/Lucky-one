@@ -1,18 +1,12 @@
-
+.main-body{
+  padding: 0px 50px;
+}
 body{
   background-color:#c5bfbf;
 }
 .App {
   text-align: center;
   
-}
-.head-body h1{
-  color:#852888;
-}
-.head-body{
-  text-align: center;
-
- 
 }
 
 
