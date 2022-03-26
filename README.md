@@ -1,6 +1,6 @@
 # Welcome our R.G Global laptop & monitor factory Store
 
-This project was bootstrapped with [Create React App](https://willowy-entremet-1fc042.netlify.app/).
+This project was bootstrapped with (https://willowy-entremet-1fc042.netlify.app/).
 
 ## Available Scripts
 
